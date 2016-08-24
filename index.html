@@ -10,7 +10,6 @@
 
 		<!-- Custom CSS -->
 		<link rel="stylesheet" href="styles/styles.css">
-
     <!-- JS -->
 		<script src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
     <script src="scripts/app.js"></script>
@@ -22,15 +21,18 @@
 		<div class="container">
 			<h1 class="text-center">Giffaw</h1>
 			<div class="row">
-				<div class="col-sm-4">
+				<div class="col-sm-6">
 					<form class="form-inline">
 						<label>Search Gifs</label>
 						<input type="text" class="form-control gif-input" name="q" value="cats" placeholder="search gifs">
 						<input type="hidden" name="api_key" value="dc6zaTOxFJmzC">
 						<input type="submit" value="Go!" class="btn btn-primary">
+						<input id="reset" type="button" name="name" class="btn btn-primary" value="Reset">
+						<input id="add25" class="btn btn-primary" type="button" name="name" value="Add 25">
 					</form>
 				</div>
-				<div class="col-sm-8">
+
+				<div class="col-sm-12">
 					<div class="gif-gallery"></div>
 				</div>
 			</div>
